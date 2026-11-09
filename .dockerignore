@@ -1,0 +1,26 @@
+# agent tooling (kept in git, excluded from deploys)
+.agents/
+.claude/
+skills-lock.json
+**/AGENTS.md
+**/CLAUDE.md
+
+# deps / build output (rebuilt inside the image)
+node_modules/
+dist/
+
+# vcs / editor
+.git/
+.vscode/
+.idea/
+
+# env
+.env
+.env.*
+
+# logs
+logs/
+*.log
+
+# misc
+.DS_Store
